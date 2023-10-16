@@ -2,13 +2,10 @@ BEGIN:VCARD
 VERSION:3.0
 N:Mukherjee;Rohan;;;
 FN:Rohan Mukherjee
-EMAIL;INTERNET;WORK:rohan@dyte.io
-ORG:Dyte;Engineering Team
-BDAY:2000-12-01
+EMAIL:roerohan@gmail.com
 TITLE:Software Developer
 TEL;Personal;PREF:+91-xxx-xxx-xxxx
 GENDER:M
-URL;Work:https://dyte.io
 URL;LinkedIn:https://www.linkedin.com/in/roerohan
 URL;Twitter:https://twitter.com/roerohan 
 URL;GitHub:https://github.com/roerohan
