@@ -129,3 +129,8 @@ i:hover {
 .icons a:hover::before {
   transform: scaleX(0);
 }
+
+.calendly-badge-widget .calendly-badge-content {
+  background-color: var(--main);
+  border-radius: 10px !important;
+}
