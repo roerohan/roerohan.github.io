@@ -17,7 +17,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      font-family: "Poppins", sans-serif;
+      font-family: "Space Mono", sans-serif;
+      overflow: hidden;
     }
 
     .main {
@@ -52,20 +53,21 @@
     <div id="countdown"></div>
     <p>Years</p>
   </div>
-  <script>
-    const birthday = new Date("2000-12-01");
-    setInterval(() => {
-      const today = new Date();
-      const diff = (
-        (Date.parse(today) - Date.parse(birthday)) /
-        (60 * 60 * 1000 * 24 * 365)
-      ).toFixed(9);
-      const split = diff.toString().split(".");
-      document.getElementById(
-        "countdown"
-      ).innerHTML = `${split[0]}.<span>${split[1]}</span>`;
-    }, 100);
-  </script>
 </body>
+
+<script>
+  const birthday = new Date("2000-12-01");
+  setInterval(() => {
+    const today = new Date();
+    const diff = (
+      (Date.parse(today) - Date.parse(birthday)) /
+      (60 * 60 * 1000 * 24 * 365)
+    ).toFixed(9);
+    const split = diff.toString().split(".");
+    document.getElementById(
+      "countdown"
+    ).innerHTML = `${split[0]}.<span>${split[1]}</span>`;
+  }, 100);
+</script>
 
 </html>
